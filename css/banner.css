@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+.right{
+    background: blue;
+}
+.left {
+    /* background: rgb(10, 46, 58); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 50px 20px 10px 60px; */
+    color: white;
+}
+
+.img, h1, p{
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+    outline: none;
+    font-size: 20px;
+    width: 150px;
+}
+
+.banner {
+    height: 100vh;
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
